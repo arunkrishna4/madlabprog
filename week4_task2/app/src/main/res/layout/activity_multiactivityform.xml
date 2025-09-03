@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:foregroundGravity="center"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/batman"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="25dp"
+
+        android:layout_marginTop="290dp"
+        android:layout_marginStart="70dp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <EditText
+        android:id="@+id/inpname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="280dp"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginStart="110dp"
+        android:orientation="horizontal">
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/radiogroup"
+            tools:ignore="InvalidId">
+
+            <RadioButton
+                android:id="@+id/radioBtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textSize="25dp"
+                android:paddingEnd="30dp"
+                tools:layout_editor_absoluteX="68dp"
+                tools:layout_editor_absoluteY="231dp" />
+
+            <RadioButton
+                android:id="@+id/radioBtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textSize="25dp"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="231dp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginStart="30dp">
+        <CheckBox
+            android:id="@+id/chBoxSports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sports"
+            android:textSize="23dp"
+            android:padding="2dp"
+            android:layout_marginEnd="10dp"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="291dp" />
+
+        <CheckBox
+            android:id="@+id/chBoxArt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Art"
+            android:textSize="23dp"
+            android:layout_marginEnd="10dp"
+            tools:layout_editor_absoluteX="165dp"
+            tools:layout_editor_absoluteY="295dp" />
+
+        <CheckBox
+            android:id="@+id/chBoxSocial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Social Work"
+            android:textSize="23dp"
+            tools:layout_editor_absoluteX="284dp"
+            tools:layout_editor_absoluteY="294dp" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/submitbtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginStart="140dp"
+        android:text="Submit"
+        android:onClick="getdetails"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="clear"
+        android:textOff="text"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/submitbtn"
+        android:text="ToggleButton" />
+
+
+</RelativeLayout>

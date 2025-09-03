@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Master App"
+        android:layout_marginLeft="140dp"/>
+
+    <Button
+        android:id="@+id/proj1"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:text="Hello world"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"/>
+
+    <Button
+        android:id="@+id/proj2"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:text="Toasts"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"/>
+
+    <Button
+        android:id="@+id/proj3"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:text="Android lifecycle"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"/>
+
+    <Button
+        android:id="@+id/proj4"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:text="sum calculator"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"/>
+
+    <Button
+        android:id="@+id/proj5"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:text="User Form"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp" />
+
+    <Button
+        android:id="@+id/proj6"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:text="Calculator"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"/>
+    <Button
+        android:id="@+id/proj7"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:text="Multiactivity form"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"/>
+
+
+</LinearLayout>
